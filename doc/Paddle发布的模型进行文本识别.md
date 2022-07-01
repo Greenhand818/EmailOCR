@@ -17,7 +17,7 @@
 python3 Paddle_rec.py
 ~~~
 
-- 使用PaddleHub中Module类选择创建模型：
+- 使用PaddleHub中Module类选择创建模型(目前使用的是PaddleHub中的multi_languages_ocr_db_crnn模型)：
 
 ~~~shell
 python3 OCR_raw.py
@@ -38,7 +38,7 @@ python3 image.py
 ## 其它文件说明
 
 - ocr验证集：有真实数据标签，有小概率标签有错
-- result.xlsx：PaddleHub中的multi_languages_ocr_db_crnn模型预测结果
-- paddle_rec_result.xlsx：使用PaddleOCR类进行的模型预测结果
+- result.xlsx：使用PaddleOCR类进行了检测和识别的模型预测结果
+- paddle_rec_result.xlsx：使用PaddleOCR类对预处理后的图片进行了检测和识别的模型预测结果
 - img：原数据集
 - image：预处理后的数据集
